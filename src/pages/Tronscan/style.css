@@ -1,0 +1,171 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.section-new {
+    height: 100%;
+    overflow: hidden;
+    overflow-y: auto;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.section-tronscan {
+    background-image: url("../../assets/images/big-1.png");
+}
+.connect-next {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.connect-pop {
+    padding: 15px;
+    background: #fff;
+    max-width: 330px;
+    border-radius: 19px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wrap-close {
+    text-align: right;
+}
+.content-1 img {
+    width: 142px;
+    height: 154px;
+    margin-bottom: 30px;
+}
+
+.verify-back img {
+    width: 18px;
+    height: 12px;
+}
+.header {
+    font-size: 17px;
+    color: #000;
+    font-weight: 700;
+    font-family: "SFProDisplay-Bold";
+    margin-bottom: 50px;
+    text-align: center;
+}
+.btn-content {
+    width: 200px;
+    height: 40px;
+    border: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    line-height: 1;
+    font-weight: 500;
+    font-family: "SFProDisplay-Medium";
+    border-radius: 11px;
+    margin-bottom: 15px;
+}
+.btn-content-1 {
+    background: #101010;
+}
+.btn-content-2 {
+    background: #6695dd;
+}
+.policy,
+.install {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    font-family: "SFProDisplay-Regular";
+    text-align: center;
+}
+.policy {
+    color: #000;
+    margin-bottom: 35px;
+}
+.install {
+    color: #69696b;
+}
+.policy span,
+.install span {
+    color: #a63c3b;
+}
+.content-input {
+    width: 210px;
+    resize: none;
+    height: 95px;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: #e7effa;
+    color: #000;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "SFProDisplay-Regular";
+    line-height: 1;
+    margin-bottom: 60px;
+}
+
+.content-input::placeholder {
+    font-size: 10px;
+    font-weight: 400;
+    font-family: "SFProDisplay-Regular";
+    line-height: 1;
+    opacity: 0.3;
+    color: #000;
+}
+.btn-submit {
+    width: 100% !important;
+    border: none;
+}
+.loader {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #fff;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-animation: rotation 1s linear infinite;
+    animation: rotation 1s linear infinite;
+    margin-right: 5px;
+}
+.verify-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    padding: 0 30px;
+    margin-top: 300px;
+}
+
+@-webkit-keyframes rotation {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotation {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}

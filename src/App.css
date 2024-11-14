@@ -1,0 +1,104 @@
+@font-face {
+  font-family: "SFProDisplay-Regular";
+  src:
+    local("SFProDisplay-Regular"),
+    url("./fonts/SFProDisplay-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SFProDisplay-Medium";
+  src:
+    local("SFProDisplay-Medium"),
+    url("./fonts/SFProDisplay-Medium.ttf") format("truetype");
+  
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SFProDisplay-Semibold";
+  src:
+    local("SFProDisplay-Semibold"),
+    url("./fonts/SFProDisplay-Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SFProDisplay-Bold";
+  src:
+    local("SFProDisplay-Bold"),
+    url("./fonts/SFProDisplay-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SFProDisplay-Heavy";
+  src:
+    local("SFProDisplay-Heavy"),
+    url("./fonts/SFProDisplay-Heavy.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+*,
+body {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.app {
+  width: 100vw;
+  height: 100vh;
+}
+body {
+  margin: 0;
+}
+.btn-common {
+  font-size: 16px;
+  font-family: "SFProDisplay-Regular";
+  width: 100%;
+  height: 46px;
+  text-transform: capitalize;
+  border-radius: 10px;
+  color: #fff;
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.btn-primary {
+  background-color: #4977f8;
+  color: #fff;
+}
+.btn-secondary {
+  background: rgba(73, 119, 248, 0.1);
+  color: #131c31;
+}
+.example {
+  display: -ms-grid;
+  display: grid;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: -webkit-gradient(linear, left top, left bottom, from(white), to(black));
+  background: -o-linear-gradient(top, white, black);
+  background: linear-gradient(to bottom, white, black);
+}
